@@ -1,0 +1,187 @@
+body {
+    background-image: url('imagens/backgroun.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Estilização do cabeçalho */
+header nav {
+    background-color: write;
+    opacity: 50%;
+    height: 70px; 
+    vertical-align: top;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+nav.usuario {
+    background-color: lightcyan;
+    opacity: 70%;
+    width: 24.5%;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+}
+nav.titulo {
+    background-color: lightsteelblue;
+    opacity: 70%;
+    width: 59.5%;
+    float: left;
+    text-align: center;
+    text-decoration-color: blue;
+    margin-right: 8px;
+}
+nav.titulo h1 { 
+    color: darkblue;
+}
+
+/* Estilização do menu de login/cadastro */
+nav.login-cadastro {
+    width: 13.7%;
+    float: left;
+    background-color: lightcyan;
+    opacity: 70%;
+    font-size: large;
+}
+nav.login-cadastro ul li {
+    list-style-type: none;
+    display: inline-block;
+   
+}
+nav.login-cadastro ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+nav.login-cadastro ul li a:hover {
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+}
+nav.login-cadastro ul li a:visited{
+   color: black;
+}
+
+
+/* Estilização da lateral de personagens */
+aside {
+    width: 25%;
+    float: left;
+}
+aside article {
+    background-color: lightblue;
+    opacity: 70%;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 10px;  
+}
+aside article div {
+    vertical-align: top;
+    box-sizing: border-box;
+}
+aside article div img {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+/* Estilização do conteúdo principal/autores */
+main {
+    width: 60%;
+    float: left;
+    
+}
+main section {
+    background-color: lightskyblue;
+    opacity: 70%;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 10px;
+} 
+main section div {
+    vertical-align: top;
+    width: calc(35% - 20px);
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+}
+main section div img {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+/* Estilização da lateral de obras */
+aside.obras {
+    width: 15%;
+    float: right;
+}
+aside.obras article {
+    background-color: lightblue;
+    opacity: 70%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;   
+}
+aside.obras article div {
+    vertical-align: top;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+aside.obras article div img {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+/* Estilização do rodapé */
+.rodape {
+    background-color: lightgrey;
+    text-align: center;
+    clear: both;
+}
+
+/* blackground */
+aside.personagens div h4.personagens {
+    background-color: lightblue;
+    opacity: 70%;
+    margin-right: 10px;
+}
+aside.personagens div input.busca {
+    margin-bottom: 10px;
+}
+
+main.autores div h4 {
+    background-color: lightskyblue;
+    opacity: 70%;
+    margin-right: 10px;
+}
+main.autores div input.busca {
+    margin-bottom: 10px;
+}
+
+aside div.pesquisa h4 {
+     background-color: lightblue;
+    opacity: 70%;
+}
+aside div.pesquisa input.busca {
+    margin-bottom: 10px;
+}
