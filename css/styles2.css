@@ -13,11 +13,10 @@ body {
     flex-wrap: wrap;
  }
 /* Estilização do cabeçalho Inicio*/
+
 header nav {
     background-color: lightsteelblue;
-   
-
-     
+ 
     font-size: large;
     font-weight: bold;
        
@@ -28,7 +27,7 @@ header nav {
     text-align: center;
     padding-left: 1%;
     padding-right: 1%;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 header h1{
@@ -66,11 +65,9 @@ nav ul li a:visited{
 
 /* Estilização da Lateral de Personagens Inicio*/
 
-.pesquisa-personagens {
-    margin: 1%;
-}
 
-aside{
+
+aside.personagens{
       width: 25%;
       float: left;
       color:white;
@@ -94,9 +91,7 @@ aside article div img {
 
 
 /* Estilização Conteudo Central Inicio*/
-.pesquisa-autores {
-    margin: 1%;
-}
+
 
 main {
    
@@ -104,16 +99,15 @@ main {
     width: 50%;
     flex-wrap: wrap;
     color: white;
+    align-items: center;
 }
 main section {
     display: flex;
-    
-   
-    margin: 1%;
+  
 }
 
 main section>div {
-    flex: 1 1 200px;
+    flex: 0 1 200px;
 }
 
 
@@ -122,8 +116,11 @@ main section>div {
 
 /* Estilização da Lateral de Obras Inicio*/
 
-.pesquisa-obras {
-    margin: 1%;
+aside.obras{
+      width: 25%;
+      float: left;
+      color:white;
+      flex-wrap: wrap;
 }
 
 /* Estilização da Lateral de Obras Fim*/
@@ -152,17 +149,18 @@ footer h4 {
 
 /* Estilização Viewport Incio*/
 
-@media screen  and (max-width: 768px){
+@media screen  and (max-width:768px){
     body{
         margin: 0px;
         padding: 0px;
 
         background-image: url('/images/fundomobile.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 100%;;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
        
     }
-    
 
 }
 
