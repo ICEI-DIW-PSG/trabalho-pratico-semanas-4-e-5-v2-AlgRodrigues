@@ -23,7 +23,7 @@ header nav {
     font-weight: bold;
        
     display: flex;
-    flex-wrap: wrap;
+    flex: inline-block;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -43,9 +43,6 @@ header a {
 
 header nav ul li {
     list-style: none;
-    display: flex;
-    display: inline-block;
-   
 }
 
 header nav ul li a {
@@ -72,7 +69,12 @@ header nav ul li.ultimo {
 
 /* Estilização do cabeçalho Fim*/
 
-
+.main-container {
+  display: flex;
+  flex: inline-block;
+  gap: 20px;
+  color:white;
+}
 
 /* Estilização da Lateral de Personagens Inicio*/
 
@@ -83,11 +85,9 @@ aside img {
 aside.personagens
 {
     width: 18%;
-    color:white;
-   
     margin-left: 30px;
     margin-right: 100px;
-    float: left;      
+      
 }
 
 aside p {
@@ -101,12 +101,10 @@ aside p {
 
 
 main {   
-    width: 48%;
-    float: left;
-   
-    margin-left: 10px;
-    color: white;
+    width: 40%;
+    margin-right: 100px;
 }
+
  main img {
     padding: 20px;
  }
@@ -117,11 +115,7 @@ main {
 
 aside.obras{
     width: 18%;
-    float: right;
-   
-    margin-right: 30px;
-    color:white;
-     
+    margin-right: 30px;     
 }
 
 /* Estilização da Lateral de Obras Fim*/
@@ -135,10 +129,7 @@ footer h4 {
    
     font-size: large;
     font-weight: bold;
-       
     text-align: center;
-    clear: both;
-   
     width: 100%;
   
 }
@@ -240,7 +231,12 @@ aside.obras article{
     margin-right: 0px;
     
   }
-
+.main-container {
+  display:grid;
+  flex: block;
+  gap: 20px;
+  color:white;
+}
  
    aside.personagens, main, aside.obras {
     width: 90%;
