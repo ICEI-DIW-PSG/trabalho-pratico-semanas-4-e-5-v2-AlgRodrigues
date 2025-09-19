@@ -1,0 +1,267 @@
+/*Comportamento normal da página*/
+html {
+    height: 100%;
+}
+body {
+    background-image: url('/images/fundodesktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    margin:0;
+    padding: 0;
+
+    
+}
+ 
+/* Estilização do cabeçalho Inicio*/
+
+header nav {
+    background-color: rgb(47, 42, 92);
+    
+    font-size: large;
+    font-weight: bold;
+       
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 20px;
+    
+}
+
+header h1{
+     color: rgb(255, 255, 255);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav ul li {
+    list-style: none;
+    display: flex;
+    display: inline-block;
+   
+}
+
+header nav ul li a {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+nav ul li a:visited{
+   color: black;
+}
+
+header nav ul li.ultimo {
+    margin-right: 30px;
+    
+}
+
+/* Estilização do cabeçalho Fim*/
+
+
+
+/* Estilização da Lateral de Personagens Inicio*/
+
+aside img {
+    padding: 20px;
+ }
+
+aside.personagens
+{
+    width: 18%;
+    color:white;
+   
+    margin-left: 30px;
+    margin-right: 100px;
+    float: left;      
+}
+
+aside p {
+    padding-right: 10px;
+}
+
+/*  Estilização da Lateral de Personagens Fim*/
+
+
+/* Estilização Conteudo Central Inicio*/
+
+
+main {   
+    width: 48%;
+    float: left;
+   
+    margin-left: 10px;
+    color: white;
+}
+ main img {
+    padding: 20px;
+ }
+/* Estilização Conteudo Central Fim*/
+
+
+/* Estilização da Lateral de Obras Inicio*/
+
+aside.obras{
+    width: 18%;
+    float: right;
+   
+    margin-right: 30px;
+    color:white;
+     
+}
+
+/* Estilização da Lateral de Obras Fim*/
+
+
+
+/* Estilização do Rodapé Inicio*/
+
+footer h4 {
+    background-color: lightsteelblue;
+   
+    font-size: large;
+    font-weight: bold;
+       
+    text-align: center;
+    clear: both;
+   
+    width: 100%;
+  
+}
+
+
+/* Estilização Viewport Incio*/
+
+
+/* Estilização Grid Inicio*/
+
+aside.personagens article {
+    background-color: rgb(8, 34, 56);
+    margin-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+main section{
+    background-color: rgb(80, 4, 4);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+aside.obras article{
+    background-color: rgb(3, 3, 114);
+    margin-bottom: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+/* Estilização Grid Fim*/
+
+
+
+
+/* Estilização Viewport Incio*/
+
+@media screen  and (max-width:768px){
+    body{
+        
+        margin: 0;
+        padding: 0;
+        
+        background-image: url('/images/fundomobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;    
+    }
+    
+    header {
+        width: 100%;
+    }
+    header nav {
+    background-color: lightsteelblue;
+ 
+    font-size: 12px;
+    font-weight: bold;
+       
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 1%;
+    margin-bottom: 20px;
+  }
+
+  
+  header nav ul li {
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    font-size: 14px; 
+  }
+
+  nav ul li a:visited{
+   color: black;
+  }
+
+  
+  header h1 {
+    color: black;
+  }
+ 
+
+  header nav ul li.ultimo {
+    margin-right: 0px;
+    
+  }
+
+ 
+   aside.personagens, main, aside.obras {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+   }
+
+ 
+   main section{
+    background-color: rgb(80, 4, 4);
+    
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+   
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Estilização Viewport Fim*/
