@@ -11,18 +11,25 @@ No trabalho dessa semana vamos evoluir o projeto para que a home-page funcione b
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Ana Luiza Gomes Rodrigues
+- Matricula: 902081
+- Proposta de projeto escolhida: Artistas e Obras
+- Breve descrição sobre seu projeto: Uma página que separa os artistas, suas obras e os personagens dessas obras.
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Imagem CSS Puro Desktop](/images/CSSPuroDesktop.png)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Imagem CSS Puro Mobile](/images/CSSPuroMobile.png)
 
+## Print da versão responsiva com Bootstrap [DESKTOP]
+
+![Imagem Bootstrap Desktop](/images/DesktopBootstrap.png)
+
+## Print da versão responsiva com Bootstrap [MOBILE] (*)
+
+![Imagem Bootstrap Mobile](/images/MobileBootstrap.png)
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
